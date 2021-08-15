@@ -6,20 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3f3417947e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./sass/style.css">
+    <link rel="stylesheet" href="./sass/stylePuro.css">
     <title>Alessandro M</title>
 </head>
 <body>
-   
+    
 <div class="body-navbar">
     <header class="navbar">
-        <nav>
+        <nav>     
             <ul>
-                <li><a href="#"><i class="fas fa-ellipsis-h"></i></a></li>
-            </ul>
+                <li><label for="check"><i class="fas fa-ellipsis-h" id="sidebar-btn" onclick="print()"></i></li>
+            </ul>              
         </nav>
     </header>
 </div>
 
+
+<input type="checkbox" id="check" checked>
+<div class="sidebar">
+    <div class="center">
+        <img src="./image/foto.jfif" alt="" class="profile-image">
+        <h3>Alessandro</h3>
+    </div>
+    <a href="#"><i class="fas fa-book-open"></i><span>Education</span></a>
+    <a href="#"><i class="fas fa-book-open"></i><span>Education</span></a>
+    <a href="#"><i class="fas fa-book-open"></i><span>Education</span></a>
+    <a href="#"><i class="fas fa-graduation-cap"></i><span>Graduation</span></a>
+    <a href="#"><i class="fas fa-graduation-cap"></i><span>Graduation</span></a>
+    <a href="#"><i class="fas fa-graduation-cap"></i><span>Graduation</span></a>
+    <a href="#"><i class="fas fa-id-badge"></i><span>Contact</span></a>
+    <a href="#"><i class="fas fa-id-badge"></i><span>Contact</span></a>
+    <a href="#"><i class="fas fa-id-badge"></i><span>Contact</span></a>
+   
+</div>
+</div>
     <div class="body-section"> 
         <section>
             <div class="section1">
@@ -35,9 +55,8 @@
                 </div>   
             </div>
         </section>
-    </div>
 
 
-
+<script src="../src/js/scripts.js"></script>
 </body>
 </html>

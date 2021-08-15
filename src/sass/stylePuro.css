@@ -1,0 +1,17 @@
+/* CSS TRIGGER */
+#check{
+  display: none;
+}
+#check:checked ~ .sidebar{
+  left: -185px;
+}
+
+#check:checked ~ .sidebar a span{
+  display: none;
+}
+
+#check:checked ~ .sidebar a{
+  font-size: 20px;
+  margin-left: 165px;
+  width: 34%;
+}
