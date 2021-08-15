@@ -2,6 +2,9 @@
 #check{
   display: none;
 }
+#check2{
+  display: none;
+}
 #check:checked ~ .sidebar{
   left: -185px;
 }
@@ -14,4 +17,42 @@
   font-size: 20px;
   margin-left: 165px;
   width: 34%;
+}
+#check:checked ~ .body-section{
+  margin-left: 2vw;
+  width: 100vw;
+
+} 
+
+.write{
+  animation: cursor 500ms infinite normal,writeText1 5s 1s normal;
+}
+.write2{
+  animation:writeText2 5s 6s normal;
+}
+
+@keyframes writeText1{
+  from{
+    width: 0;
+  }
+  to{
+    width: 21vw;
+  }
+}
+
+@keyframes writeText2{
+  from{
+    width: 0;
+  }
+  to{
+    width: 44vw;
+  }
+}
+@keyframes cursor{
+  from{
+    border-right-color:black ;
+  }
+  to{
+    border-right-color: transparent;
+  }
 }
