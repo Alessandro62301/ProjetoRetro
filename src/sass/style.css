@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.body-navbar {
+  width: 100vw;
+}
+
+.body-navbar .navbar {
+  width: 100%;
+  height: 100px;
+  border: 3px solid #232516;
+  background-color: #f6cf45;
+}
+
+.body-navbar .navbar li {
+  list-style: none;
+}
+
+.body-navbar .navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.body-navbar .navbar li a i {
+  font-size: 80px;
+}
+
+.body-section {
+  width: 100vw;
+}
+
+.body-section .section1 {
+  background-color: #ccc;
+  border: 3px solid #232516;
+  border-top: none;
+  border-bottom: none;
+  width: 100%;
+  height: 400px;
+}
+
+.body-section .section2 {
+  background-color: #87c3fa;
+  border: 3px solid #232516;
+  width: 100%;
+  height: 300px;
+}
+
+.body-section .section2 div h1 {
+  color: #232516;
+  font-size: 60px;
+  padding-left: 150px;
+}
+/*# sourceMappingURL=style.css.map */
