@@ -132,24 +132,22 @@ $bgc-blue: #87c3fa;
 			
 			.write {
 				padding-left: 150px;
-				padding-top: 80px;
+				margin-top: 80px;
 				color: $bgc-black;
-				font-size: 60px;
+				font-size: 3em;
 				margin-bottom: -20px;
 				white-space: nowrap;
 				overflow:hidden;
 				border-right: 1px solid transparent;
-				width: 0;
 		}
 		.write2 {
 			padding-left: 150px;
 			color: $bgc-black;
-			font-size: 60px;
+			font-size: 3em;
 			margin-bottom: -20px;
 			white-space: nowrap;
 			overflow:hidden;
 			border-right: 1px solid transparent;
-			width: 0;
 	}
 	}
 }

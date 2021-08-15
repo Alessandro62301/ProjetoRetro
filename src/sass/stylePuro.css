@@ -25,10 +25,10 @@
 } 
 
 .write{
-  animation: cursor 500ms infinite normal,writeText1 5s 1s normal;
+  animation:cursor 500ms  normal,writeText1 3s steps(90) 1s normal both;
 }
 .write2{
-  animation:writeText2 5s 6s normal;
+  animation:cursor 500ms 4s infinite  normal,writeText2 3s steps(90) 4s normal both;
 }
 
 @keyframes writeText1{
@@ -36,7 +36,7 @@
     width: 0;
   }
   to{
-    width: 21vw;
+    width: 350px;
   }
 }
 
@@ -45,7 +45,7 @@
     width: 0;
   }
   to{
-    width: 44vw;
+    width: 680px;
   }
 }
 @keyframes cursor{
