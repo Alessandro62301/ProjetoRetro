@@ -24,6 +24,9 @@
 
 } 
 
+
+
+
 .write{
   animation:cursor 500ms  normal,writeText1 3s steps(90) 1s normal both;
 }

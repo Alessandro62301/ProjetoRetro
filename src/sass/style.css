@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  height: 2000px;
   overflow-x: hidden;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -185,7 +184,9 @@ body {
     font-size: 18px;
   }
   #sidebar-btn {
-    margin-top: -20px;
+    margin-left: -35px;
+    margin-top: -5px;
+    font-size: 50px;
   }
 }
 /*# sourceMappingURL=style.css.map */
