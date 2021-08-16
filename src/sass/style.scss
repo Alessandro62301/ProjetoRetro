@@ -130,7 +130,7 @@ $bgc-blue: #87c3fa;
 		border: 3px solid $bgc-black;
 		max-width: 100%;
 		height: 45vh;
-			
+		border-bottom: none;
 			.write {
 				padding-left: 150px;
 				margin-top: 80px;
@@ -162,10 +162,12 @@ $bgc-blue: #87c3fa;
 $breakpoint-mobile: 900px;
 @media (max-width: $breakpoint-mobile) {
 
-
+	.navbar{
+		height: 50px;
+	}
 	.body-section {
 		margin-left: 10vw;
-	
+		margin-top:55px;
 		.section1 {
 			max-width: 100%;
 			height: 30vh;
@@ -188,8 +190,8 @@ $breakpoint-mobile: 900px;
 }	
 
 	#sidebar-btn{
-		margin-left: 5px;
-		margin-top: 5px;
+		margin-left: -5px;
+		margin-top: -5px;
 		font-size: 50px;
 	}
 }
